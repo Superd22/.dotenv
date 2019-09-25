@@ -1,0 +1,18 @@
+#!/bin/bash
+
+SRC_PATH="$HOME/.config/i3/emoji/emoji-list"
+DB_PATH="$HOME/.config/i3/emoji/emoji.db"
+
+# Create database (see also: `frece update`)
+[[ -f "$DB_PATH" ]] || frece init $DB_PATH $SRC_PATH
+
+# Rofi
+line=`frece print "$DB_PATH" | rofi -dmenu -theme emoji-selector-theme -i -markup-rows -p "" -columns 4`
+[[ -z $line ]] && exit
+
+# Increment entry and paste
+frece increment "$DB_PATH" "$line"
+a="${line#*>}"
+b="${a%<*}"
+echo -n $b | xsel -ipb
+xdotool key Ctrl+Shift+v
