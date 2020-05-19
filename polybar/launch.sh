@@ -9,6 +9,8 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch Polybar
-polybar -c ~/.config/polybar/config.ini top &
-polybar -c ~/.config/polybar/config.ini bottom &
-/usr/bin/env python3 ~/.config/polybar/scripts/spotify/py_spotify_listener.py &
+for m in $(polybar --list-monitors | cut -d":" -f1); do
+    echo Launching polybar on $m &
+    MONITOR=$m polybar -c ~/.config/polybar/config.ini top &
+    MONITOR=$m polybar -c ~/.config/polybar/config.ini bottom &
+done
