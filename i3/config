@@ -14,8 +14,6 @@ set_from_resource $white i3wm.color15 "#fefbec"
 set_from_resource $split i3wm.color10 "#9E664B0"
 set $mod Mod4
 
-# Compton
-exec --no-startup-id /usr/bin/compton -b --config ~/.compton.conf
 
 # Wallpaper
 exec --no-startup-id nitrogen --restore
@@ -62,7 +60,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id "rofi --theme sidetap -show drun"
+bindsym $mod+d exec --no-startup-id "rofi -show drun"
 bindsym $mod+z exec --no-startup-id "/home/david/Documents/sounds/sound.sh"
 bindsym $mod+Shift+Return exec --no-startup-id "/home/david/.config/i3/emoji/emoji-selector"
 
@@ -204,8 +202,8 @@ bindsym $mod+l mode "sound"
 bindsym $mod+b mode "backlight"
 
 mode "backlight" {
-	bindsym Up exec "xbacklight +10"
-	bindsym Down exec "xbacklight -10"
+	bindsym Up exec "sudo light -A 5"
+	bindsym Down exec "sudo light -U 5"
 	bindsym r exec "redshift -o -l 48.86471:2.349014"
 	bindsym $mod+r exec "redshift -o -x"
 	bindsym Return mode "default"
@@ -276,6 +274,11 @@ bindsym 1 exec "play ~/Documents/lopez/01-jmappelle.mp3"
 exec "setxkbmap -layout fr"
 
 gaps inner 16
-gaps outer 0
+gaps outer -8
 smart_borders on
 new_window none
+# border_radius 2
+
+
+# Compton
+exec_always /usr/bin/picom -config ~/.config/picom.conf
