@@ -1,0 +1,576 @@
+{
+  "change": "init",
+  "current": {
+    "id": 94685831013360,
+    "type": "workspace",
+    "orientation": "none",
+    "scratchpad_state": "none",
+    "percent": null,
+    "urgent": false,
+    "marks": [],
+    "focused": false,
+    "output": "eDP-1",
+    "layout": "splith",
+    "workspace_layout": "default",
+    "last_split_layout": "splith",
+    "border": "none",
+    "current_border_width": -1,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 3840,
+      "height": 2400
+    },
+    "deco_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "window_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "geometry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "name": "3",
+    "window_icon_padding": -1,
+    "num": 3,
+    "gaps": {
+      "inner": 0,
+      "outer": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "window": null,
+    "window_type": null,
+    "nodes": [],
+    "floating_nodes": [],
+    "focus": [],
+    "fullscreen_mode": 0,
+    "sticky": false,
+    "floating": "auto_off",
+    "swallows": []
+  },
+  "old": null
+}
+{
+  "change": "focus",
+  "current": {
+    "id": 94685831013360,
+    "type": "workspace",
+    "orientation": "none",
+    "scratchpad_state": "none",
+    "percent": null,
+    "urgent": false,
+    "marks": [],
+    "focused": true,
+    "output": "eDP-1",
+    "layout": "splith",
+    "workspace_layout": "default",
+    "last_split_layout": "splith",
+    "border": "none",
+    "current_border_width": -1,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 3840,
+      "height": 2400
+    },
+    "deco_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "window_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "geometry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "name": "3",
+    "window_icon_padding": -1,
+    "num": 3,
+    "gaps": {
+      "inner": 0,
+      "outer": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "window": null,
+    "window_type": null,
+    "nodes": [],
+    "floating_nodes": [],
+    "focus": [],
+    "fullscreen_mode": 1,
+    "sticky": false,
+    "floating": "auto_off",
+    "swallows": []
+  },
+  "old": {
+    "id": 94685830500128,
+    "type": "workspace",
+    "orientation": "horizontal",
+    "scratchpad_state": "none",
+    "percent": 0.16666666666666669,
+    "urgent": false,
+    "marks": [],
+    "focused": false,
+    "output": "eDP-1",
+    "layout": "splith",
+    "workspace_layout": "default",
+    "last_split_layout": "splith",
+    "border": "none",
+    "current_border_width": -1,
+    "rect": {
+      "x": 0,
+      "y": 88,
+      "width": 3840,
+      "height": 2262
+    },
+    "deco_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "window_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "geometry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "name": "2",
+    "window_icon_padding": -1,
+    "num": 2,
+    "gaps": {
+      "inner": 0,
+      "outer": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "window": null,
+    "window_type": null,
+    "nodes": [
+      {
+        "id": 94685830931104,
+        "type": "con",
+        "orientation": "none",
+        "scratchpad_state": "none",
+        "percent": 0.8,
+        "urgent": false,
+        "marks": [],
+        "focused": false,
+        "output": "eDP-1",
+        "layout": "splith",
+        "workspace_layout": "default",
+        "last_split_layout": "splith",
+        "border": "none",
+        "current_border_width": 0,
+        "rect": {
+          "x": 18,
+          "y": 106,
+          "width": 3037,
+          "height": 2226
+        },
+        "deco_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "window_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 3037,
+          "height": 2226
+        },
+        "geometry": {
+          "x": 856,
+          "y": 401,
+          "width": 2133,
+          "height": 1601
+        },
+        "name": "i3-workspaces.variables.yuck - eww - Visual Studio Code",
+        "window_icon_padding": -1,
+        "window": 54526071,
+        "window_type": "normal",
+        "window_properties": {
+          "class": "Code",
+          "instance": "code",
+          "window_role": "browser-window",
+          "machine": "DAVIDXPS2",
+          "title": "i3-workspaces.variables.yuck - eww - Visual Studio Code",
+          "transient_for": null
+        },
+        "nodes": [],
+        "floating_nodes": [],
+        "focus": [],
+        "fullscreen_mode": 0,
+        "sticky": false,
+        "floating": "auto_off",
+        "swallows": []
+      },
+      {
+        "id": 94685830943952,
+        "type": "con",
+        "orientation": "none",
+        "scratchpad_state": "none",
+        "percent": 0.2,
+        "urgent": false,
+        "marks": [],
+        "focused": false,
+        "output": "eDP-1",
+        "layout": "splith",
+        "workspace_layout": "default",
+        "last_split_layout": "splith",
+        "border": "none",
+        "current_border_width": 0,
+        "rect": {
+          "x": 3089,
+          "y": 106,
+          "width": 733,
+          "height": 2226
+        },
+        "deco_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "window_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 733,
+          "height": 2226
+        },
+        "geometry": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600
+        },
+        "name": "Alacritty",
+        "window_icon_padding": -1,
+        "window": 123731970,
+        "window_type": "normal",
+        "window_properties": {
+          "class": "Alacritty",
+          "instance": "Alacritty",
+          "machine": "DAVIDXPS2",
+          "title": "Alacritty",
+          "transient_for": null
+        },
+        "nodes": [],
+        "floating_nodes": [],
+        "focus": [],
+        "fullscreen_mode": 0,
+        "sticky": false,
+        "floating": "auto_off",
+        "swallows": []
+      }
+    ],
+    "floating_nodes": [],
+    "focus": [
+      94685830943952,
+      94685830931104
+    ],
+    "fullscreen_mode": 0,
+    "sticky": false,
+    "floating": "auto_off",
+    "swallows": []
+  }
+}
+{
+  "change": "focus",
+  "current": {
+    "id": 94685830500128,
+    "type": "workspace",
+    "orientation": "horizontal",
+    "scratchpad_state": "none",
+    "percent": 0.16666666666666669,
+    "urgent": false,
+    "marks": [],
+    "focused": false,
+    "output": "eDP-1",
+    "layout": "splith",
+    "workspace_layout": "default",
+    "last_split_layout": "splith",
+    "border": "none",
+    "current_border_width": -1,
+    "rect": {
+      "x": 0,
+      "y": 88,
+      "width": 3840,
+      "height": 2262
+    },
+    "deco_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "window_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "geometry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "name": "2",
+    "window_icon_padding": -1,
+    "num": 2,
+    "gaps": {
+      "inner": 0,
+      "outer": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "window": null,
+    "window_type": null,
+    "nodes": [
+      {
+        "id": 94685830931104,
+        "type": "con",
+        "orientation": "none",
+        "scratchpad_state": "none",
+        "percent": 0.8,
+        "urgent": false,
+        "marks": [],
+        "focused": false,
+        "output": "eDP-1",
+        "layout": "splith",
+        "workspace_layout": "default",
+        "last_split_layout": "splith",
+        "border": "none",
+        "current_border_width": 0,
+        "rect": {
+          "x": 18,
+          "y": 106,
+          "width": 3037,
+          "height": 2226
+        },
+        "deco_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "window_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 3037,
+          "height": 2226
+        },
+        "geometry": {
+          "x": 856,
+          "y": 401,
+          "width": 2133,
+          "height": 1601
+        },
+        "name": "i3-workspaces.variables.yuck - eww - Visual Studio Code",
+        "window_icon_padding": -1,
+        "window": 54526071,
+        "window_type": "normal",
+        "window_properties": {
+          "class": "Code",
+          "instance": "code",
+          "window_role": "browser-window",
+          "machine": "DAVIDXPS2",
+          "title": "i3-workspaces.variables.yuck - eww - Visual Studio Code",
+          "transient_for": null
+        },
+        "nodes": [],
+        "floating_nodes": [],
+        "focus": [],
+        "fullscreen_mode": 0,
+        "sticky": false,
+        "floating": "auto_off",
+        "swallows": []
+      },
+      {
+        "id": 94685830943952,
+        "type": "con",
+        "orientation": "none",
+        "scratchpad_state": "none",
+        "percent": 0.2,
+        "urgent": false,
+        "marks": [],
+        "focused": true,
+        "output": "eDP-1",
+        "layout": "splith",
+        "workspace_layout": "default",
+        "last_split_layout": "splith",
+        "border": "none",
+        "current_border_width": 0,
+        "rect": {
+          "x": 3089,
+          "y": 106,
+          "width": 733,
+          "height": 2226
+        },
+        "deco_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "window_rect": {
+          "x": 0,
+          "y": 0,
+          "width": 733,
+          "height": 2226
+        },
+        "geometry": {
+          "x": 0,
+          "y": 0,
+          "width": 800,
+          "height": 600
+        },
+        "name": "Alacritty",
+        "window_icon_padding": -1,
+        "window": 123731970,
+        "window_type": "normal",
+        "window_properties": {
+          "class": "Alacritty",
+          "instance": "Alacritty",
+          "machine": "DAVIDXPS2",
+          "title": "Alacritty",
+          "transient_for": null
+        },
+        "nodes": [],
+        "floating_nodes": [],
+        "focus": [],
+        "fullscreen_mode": 0,
+        "sticky": false,
+        "floating": "auto_off",
+        "swallows": []
+      }
+    ],
+    "floating_nodes": [],
+    "focus": [
+      94685830943952,
+      94685830931104
+    ],
+    "fullscreen_mode": 1,
+    "sticky": false,
+    "floating": "auto_off",
+    "swallows": []
+  },
+  "old": {
+    "id": 94685831013360,
+    "type": "workspace",
+    "orientation": "none",
+    "scratchpad_state": "none",
+    "percent": null,
+    "urgent": false,
+    "marks": [],
+    "focused": false,
+    "output": "eDP-1",
+    "layout": "splith",
+    "workspace_layout": "default",
+    "last_split_layout": "splith",
+    "border": "none",
+    "current_border_width": -1,
+    "rect": {
+      "x": 0,
+      "y": 88,
+      "width": 3840,
+      "height": 2262
+    },
+    "deco_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "window_rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "geometry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "name": "3",
+    "window_icon_padding": -1,
+    "num": 3,
+    "gaps": {
+      "inner": 0,
+      "outer": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "window": null,
+    "window_type": null,
+    "nodes": [],
+    "floating_nodes": [],
+    "focus": [],
+    "fullscreen_mode": 0,
+    "sticky": false,
+    "floating": "auto_off",
+    "swallows": []
+  }
+}
+{
+  "change": "empty",
+  "current": {
+    "id": 94685831013360,
+    "type": "workspace",
+    "orientation": "none",
+    "scratchpad_state": "none",
+    "percent": null,
+    "urgent": false,
+    "marks": [],
+    "focused": false,
+    "output": "eDP-1",
+    "layout": "splith",
+    "workspace_layout": "default",
+    "last_split_layout": "splith",
+    "border": "none",
+    "current_border_width": -1,
+    "rect": {
+      "x": 0,
+      "y": 88,
+      "width": 3840,
+      "height": 2262
+    },
+    

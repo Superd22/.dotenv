@@ -1,0 +1,2 @@
+(include "widget/i3/window/i3-window.variables.yuck")
+(include "widget/i3/workspaces/i3-workspaces.variables.yuck")

@@ -1,0 +1,5 @@
+(deflisten i3-current-workspace :initial 0
+  `i3-msg -t subscribe  -m '["workspace"]' | jq 'select(.change == "focus").current.name' -r --unbuffered`)
+
+(deflisten i3-workspaces :initial "{}"
+  `i3-msg -t subscribe  -m '["workspace"]' | awk '{print "i3-msg -t get_workspaces"; fflush();}' | xargs -i sh -c "{}" | jq 'INDEX(.name) * { "1": {}, "2": {}, "3": {}, "4": {}, "5": {}, "6": {}, "7": {}, "8": {}, "9": {}, "10": {} }' -c --unbuffered`)

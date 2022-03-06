@@ -1,0 +1,19 @@
+GtkButton {
+  background-color: green;
+}
+.workspace-button {
+  background-color: darkgoldenrod;
+}
+
+.focused {
+  background-color: red;
+  color: blue;
+}
+
+.workspace-button {
+  color:orange
+
+}
+.workspace-button.focused {
+  color: brown
+}

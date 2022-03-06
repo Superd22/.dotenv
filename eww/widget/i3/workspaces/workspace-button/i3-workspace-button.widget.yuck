@@ -1,0 +1,9 @@
+
+(defwidget i3-workspace-button [n]
+  (button
+    :onclick "i3-msg workspace '${n}'"
+    :visible { i3-workspaces[n].num == n ? true : false }
+    :class "workspace-button ${i3-current-workspace == n ? 'focused': 'not-focused'}"
+    (label :text "${n}")
+  )
+)

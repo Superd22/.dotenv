@@ -1,0 +1,17 @@
+
+(include "widget/i3/workspaces/workspace-button/i3-workspace-button.widget.yuck")
+
+(defwidget i3-workspaces []
+  (box :class "workspaces" :orientation "h" :space-evenly false :halign "start"  :spacing 10
+  (i3-workspace-button :n 1)
+  (i3-workspace-button :n 2)
+  (i3-workspace-button :n 3)
+  (i3-workspace-button :n 4)
+  (i3-workspace-button :n 5)
+  (i3-workspace-button :n 6)
+  (i3-workspace-button :n 7)
+  (i3-workspace-button :n 8)
+  (i3-workspace-button :n 9)
+  (i3-workspace-button :n 10)
+  )
+)

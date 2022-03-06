@@ -1,0 +1,2 @@
+(deflisten i3-window :initial "{}"
+  `i3-msg -t subscribe  -m '["window"]'`)

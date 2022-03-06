@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Only useful until we have FOR loops in yuck
+# see https://github.com/elkowar/eww/pull/350
+screen=0
+
+
+workspaces=$(i3-msg -t get_workspaces | jq -r ".[] | select(.output | contains(\"${sname}\")) | .name")
+
+echo -n '(box :class "workspaces" :orientation "h" :space-evenly false :halign "start"  :spacing 10 '
+for workspace in $workspaces; do
+  echo -n '(button '
+  echo -n ":onclick \"i3-msg workspace '${workspace}'\" "
+  echo -n "(label :text \"${workspace:1}\")"
+  echo -n ')'
+done
+echo ')'
+
+#i3-msg -t get_workspaces | jq '.[] | select(.focused==true).name' | cut -d"\"" -f2
